@@ -26,6 +26,6 @@ Domain-Generalization-via-Image-Stylization
 
 
 #### train
-
-`python main.py --batch_size 16 --n_classes 7 --learning_rate 0.001 --val_size 0.1 --folder_name test --train_all True --TTA False --image_size 256 --nesterov True --min_scale 0.8 --max_scale 1.0 --random_horiz_flip 0 --jitter 0 --tile_random_grayscale 0.1 --source art_painting cartoon photo --target sketch --bias_whole_image 0.7`
-
+```
+python main.py --batch_size 16 --n_classes 7 --learning_rate 0.001 --val_size 0.1 --folder_name test --train_all True --TTA False --image_size 256 --nesterov True --min_scale 0.8 --max_scale 1.0 --random_horiz_flip 0 --jitter 0 --tile_random_grayscale 0.1 --source art_painting cartoon photo --target sketch --bias_whole_image 0.7`
+```
